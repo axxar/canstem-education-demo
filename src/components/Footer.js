@@ -32,10 +32,10 @@ const Footer = () => {
               </h2>
               <ul class="text-gray-600 dark:text-gray-400 text-xs lg:text-sm">
                 <li class="mb-4">
-                  <a class="hover:underline">Privacy Policy</a>
+                  <NavLink to="/" class="hover:underline">Privacy Policy</NavLink>
                 </li>
                 <li>
-                  <a class="hover:underline">Terms &amp; Conditions</a>
+                  <NavLink to="/" class="hover:underline">Terms &amp; Conditions</NavLink>
                 </li>
               </ul>
             </div>
@@ -53,7 +53,7 @@ const Footer = () => {
           <div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
             <a
               href="https://www.facebook.com/Sajjalapsankhe/"
-              target="_blank"
+              target="_blank" rel="noreferrer"
               class="text-gray-500 hover:text-gray-900 dark:hover:text-white"
             >
               <svg
