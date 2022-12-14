@@ -59,7 +59,7 @@ export default function Services() {
               className={({ selected }) =>
                 classNames(
                   'w-full py-2.5 rounded-lg tracking-wide lg:tracking-widest text-sm lg:text-xl font-semibold',
-                  'focus:outline-none focus:ring-2 ring-offset-2',
+                  'focus:outline-none',
                   selected
                     ? 'bg-green-400 shadow text-dark text-gray-800' 
                     : 'hover:bg-white/40 hover:text-dark bg-blue-400'
