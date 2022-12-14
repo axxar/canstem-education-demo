@@ -84,7 +84,7 @@ export default function Services() {
                     key={post.id}
                     className="relative p-3 rounded-md hover:bg-coolGray-100"
                   >
-                    <h1 className="text-lg lg:text-2xl font-medium leading-relaxed">
+                    <h1 className="text-lg lg:text-2xl font-bold leading-relaxed">
                       {post.title}
                     </h1>
 
