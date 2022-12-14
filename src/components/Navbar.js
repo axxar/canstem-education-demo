@@ -75,19 +75,25 @@ function Navbar({ children }) {
                     aria-labelledby="dropdownLargeButton"
                   >
                     <li>
-                      <a class="block px-4 py-2 hover:bg-gray-100">
-                        <NavLink to="/DaySchool">Day School</NavLink>
-                      </a>
+                      <NavLink to="/DaySchool">
+                        <span class="block px-4 py-2 hover:bg-gray-100">
+                          Day School
+                        </span>
+                      </NavLink>
                     </li>
                     <li>
-                      <a class="block px-4 py-2 hover:bg-gray-100">
-                        <NavLink to="/HighSchoolCreditCourses">High School Credit Courses</NavLink>
-                      </a>
+                      <NavLink to="/HighSchoolCreditCourses">
+                        <span class="block px-4 py-2 hover:bg-gray-100">
+                          High School Credit Courses
+                        </span>
+                      </NavLink>
                     </li>
                     <li>
-                      <a class="block px-4 py-2 hover:bg-gray-100">
-                        <NavLink to="/Tutoring">Tutoring</NavLink>
-                      </a>
+                      <NavLink to="/Tutoring">
+                        <span class="block px-4 py-2 hover:bg-gray-100">
+                          Tutoring
+                        </span>
+                      </NavLink>
                     </li>
                   </ul>
                 </div>
