@@ -12,19 +12,22 @@ function Navbar({ children }) {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 ">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center text-lg tracking-wider">
-                <NavLink to="/" className="flex items-center hover:text-blue-700">
-                  <img className="h-10 lg:h-15 " src={CSELogo} alt="CSE logo white" />
-                  <span class="self-center text-md md:text-2xl align-middle font-semibold whitespace-nowrap">CanSTEM Education</span>
-                </NavLink>
+              <NavLink to="/" className="flex items-center hover:text-blue-700">
+                <img
+                  className="h-10 lg:h-15 "
+                  src={CSELogo}
+                  alt="CSE logo white"
+                />
+                <span class="self-center text-md md:text-2xl align-middle font-semibold whitespace-nowrap">
+                  CanSTEM Education
+                </span>
+              </NavLink>
             </div>
 
             <div className="-mr-2 flex">
-            <div className="hidden md:block">
+              <div className="hidden md:block">
                 <div className="ml-10 flex space-x-4 font-medium text-md">
-                  <NavLink
-                    to="/"
-                    className="px-3 py-2 hover:text-blue-700"
-                  >
+                  <NavLink to="/" className="px-3 py-2 hover:text-blue-700">
                     Home
                   </NavLink>
                   <NavLink
@@ -99,25 +102,28 @@ function Navbar({ children }) {
           leaveTo="opacity-0 scale-95"
         >
           {(ref) => (
-            <div className="md:hidden font-AdventPro tracking-wide" id="mobile-menu">
+            <div
+              className="md:hidden font-AdventPro tracking-wide"
+              id="mobile-menu"
+            >
               <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
                 <NavLink
                   to="/"
-                  className="hover:text-blue-700 block px-3 py-2 rounded-md text-base font-medium"
+                  className="block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Home
                 </NavLink>
 
                 <NavLink
                   to="/Services"
-                  className="hover:text-blue-700 block px-3 py-2 rounded-md text-base font-medium"
+                  className="block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Services
                 </NavLink>
 
                 <NavLink
                   to="/ContactUs"
-                  className="hover:text-blue-700 block px-3 py-2 rounded-md text-base font-medium"
+                  className="block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Contact Us
                 </NavLink>
