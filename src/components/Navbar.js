@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import CSELogo from "../components/images/CSE-logo.png";
 import "flowbite";
 
 function Navbar({ children }) {
@@ -7,8 +8,13 @@ function Navbar({ children }) {
     <div>
       <nav class="bg-white px-2 sm:px-4 py-2.5 dark:bg-gray-900 fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
         <div class="container flex flex-wrap items-center justify-between mx-auto">
-          <NavLink to="/" class="flex items-center">
-            <span class="self-center text-3xl font-semibold whitespace-nowrap text-green-600 hover:text-black">
+          <NavLink to="/" class="">
+            <img
+              src={CSELogo}
+              class="inline h-16"
+              alt="CanSTEM Education Logo"
+            />
+            <span class="self-center align-middle text-3xl font-semibold whitespace-nowrap text-green-600 hover:text-black">
               CanSTEM Education
             </span>
           </NavLink>
