@@ -18,7 +18,7 @@ const Footer = () => {
           <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-2">
             <div>
               <h2 class="mb-6 text-sm lg:text-md font-semibold text-gray-900 uppercase dark:text-white">
-                <NavLink to="/Services">Services</NavLink>
+                <NavLink to="/">Services</NavLink>
               </h2>
               <ul class="text-gray-600 dark:text-gray-400 text-xs lg:text-sm">
                 <li class="mb-4">Day School</li>

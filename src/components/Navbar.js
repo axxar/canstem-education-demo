@@ -14,11 +14,11 @@ function Navbar({ children }) {
             <div className="flex items-center text-lg tracking-wider">
               <NavLink to="/" className="flex items-center hover:text-blue-700">
                 <img
-                  className="h-10 lg:h-15 "
+                  className="h-12 lg:h-16"
                   src={CSELogo}
                   alt="CSE logo white"
                 />
-                <span class="self-center text-md md:text-2xl align-middle font-semibold whitespace-nowrap">
+                <span class="self-center text-lg md:text-2xl align-middle font-semibold whitespace-nowrap">
                   CanSTEM Education
                 </span>
               </NavLink>
@@ -29,18 +29,6 @@ function Navbar({ children }) {
                 <div className="ml-10 flex space-x-4 font-medium text-md">
                   <NavLink to="/" className="px-3 py-2 hover:text-blue-700">
                     Home
-                  </NavLink>
-                  <NavLink
-                    to="/Services"
-                    className="px-3 py-2 hover:text-blue-700"
-                  >
-                    Services
-                  </NavLink>
-                  <NavLink
-                    to="/ContactUs"
-                    className="px-3 py-2 hover:text-blue-700"
-                  >
-                    Contact Us
                   </NavLink>
                 </div>
               </div>
@@ -112,20 +100,6 @@ function Navbar({ children }) {
                   className="block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Home
-                </NavLink>
-
-                <NavLink
-                  to="/Services"
-                  className="block px-3 py-2 rounded-md text-base font-medium"
-                >
-                  Services
-                </NavLink>
-
-                <NavLink
-                  to="/ContactUs"
-                  className="block px-3 py-2 rounded-md text-base font-medium"
-                >
-                  Contact Us
                 </NavLink>
               </div>
             </div>
